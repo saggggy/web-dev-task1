@@ -1,0 +1,120 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Arial Black', sans-serif;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.team-section h3 {
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member {
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.member:hover {
+    transform: scale(1.05);
+
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.member h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.member p {
+    margin: 0;
+    color: #666;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(100, 100, 173);
+}
+
+.icon i {
+    cursor: pointer;
+    margin: 0% 5%;
+}
+
+.member h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Georgia', serif;
+    color: #222;
+}
+
+.member p {
+    margin: 0;
+    color: #777;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.line p {
+    background-color: #555;
+    padding: 1px;
+    width: 15%;
+}
